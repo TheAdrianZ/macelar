@@ -189,7 +189,7 @@ client.on('message', message => {
                     .addField('``My ID``' , `[ ${client.user.id} ]` , true)
                           .addField('``My Prefix``' , `[ + ]` , true)
                           .addField('``My Language``' , `[ Java Script ]` , true)
-                          .setFooter('** Macelar Bot © 2019 | All Rights Reserved **')
+                          .setFooter('** Tornado Rewards © 2019 | All Rights Reserved **')
             })
         }
         });
