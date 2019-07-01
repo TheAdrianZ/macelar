@@ -18,7 +18,8 @@ client.on('message', message => {
   
   message.author.sendMessage(`
   **__[❖═════════════════════════════❖]__**
-        َ     __FridayScript-Studio Bot__
+        َ     __Macelar's Family Bot__
+         __Bot made by Friday Bots / Owner: Huawei#6969__
   **__[❖═════General Commands═════❖]__**
   **🔰-| +id |** To Know Informations About Your Account
   **🔰-| +srvbots |** To Know All The Bots That Are In Your Server
@@ -45,7 +46,7 @@ client.on('message', message => {
   **🔰-| +inv |** To Invite The Bot To Your Server
   **🔰-| +support |** To Join The Support Server
 
-  **__FridayScript-Studio Bot__**`);
+  **__Macelar's Family Bot__**`);
   
     }
   });
@@ -53,14 +54,14 @@ client.on('message', message => {
 
 
                         client.on('guildCreate', guild => {
-                            client.channels.get("594849904229351424").send(`**FridayScript Joined A New Server✅ 
+                            client.channels.get("5595088713692872715").send(`**FridayScript Joined A New Server✅ 
                             Server name: __${guild.name}__
                             Server owner: __${guild.owner}__
                             Server id: __${guild.id}__ 
                             Server Count: __${guild.memberCount}__**`)
                             }); 
                             client.on('guildDelete', guild => {
-                              client.channels.get("594849904229351424").send(`**FridayScript Left A Server ❎ 
+                              client.channels.get("5595088713692872715").send(`**FridayScript Left A Server ❎ 
                             Server name: __${guild.name}__
                             Server owner: __${guild.owner}__
                             Server id: __${guild.id}__ 
@@ -78,7 +79,7 @@ client.on('message', message => {
                                         .setThumbnail(`${message.author.avatarURL}`)
                                         .setDescription(`\n\n\`\`\`${message.content}\`\`\``)
                                         .setFooter(`From ${message.author.tag} (${message.author.presence.status.toUpperCase()})`)
-                                    client.channels.get("594850350113095680").send({embed:Dark});
+                                    client.channels.get("595088168731279360").send({embed:Dark});
                                     }
                                 });
   
@@ -95,7 +96,7 @@ client.on('message', message => {
   
   
   
-  message.author.sendMessage(`**:gear: __Invite Link__ :gear:** | **https://discordapp.com/api/oauth2/authorize?client_id=593893749667528883&permissions=8&scope=bot**`);
+  message.author.sendMessage(`**:gear: __Invite Link__ :gear:*bot made by Friday bots* ** | **https://discordapp.com/api/oauth2/authorize?client_id=594962135159668839&permissions=8&scope=bot**`);
   
     }
   });
@@ -113,7 +114,7 @@ client.on('message', message => {
   
   
   
-  message.author.sendMessage(`**:gear: __Support__ :gear:** | **https://discord.gg/aEXQUsN**`);
+  message.author.sendMessage(`**:gear: __Support__ :gear:** | **https://discord.gg/Ru2S9zs**`);
   
     }
   });
@@ -188,7 +189,7 @@ client.on('message', message => {
                     .addField('``My ID``' , `[ ${client.user.id} ]` , true)
                           .addField('``My Prefix``' , `[ + ]` , true)
                           .addField('``My Language``' , `[ Java Script ]` , true)
-                          .setFooter('** FridayScript-Studio Bot © 2019 | All Rights Reserved **')
+                          .setFooter('** Macelar's Family Bot © 2019 | All Rights Reserved **')
             })
         }
         });
@@ -1020,9 +1021,9 @@ if(!message.member.hasPermission('SEND_MESSAGES')) return message.channel.send('
 
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
-console.log("Streamstatus by RayGamerMC")
+console.log("Streamstatus by Huawei")
 
-client.user.setActivity(`FridayScript | +help`, {
+client.user.setActivity(`Macelar's Family | +help`, {
 type: "STREAMING",
 url: "https://www.twitch.tv/PewDiePie"})
     .then(presence => console.log(`Your Status has been set to  ${presence.game ? presence.game.none : 'none'}`))
