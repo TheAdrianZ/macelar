@@ -54,14 +54,14 @@ client.on('message', message => {
 
 
                         client.on('guildCreate', guild => {
-                            client.channels.get("5595088713692872715").send(`**FridayScript Joined A New Server✅ 
+                            client.channels.get("595088713692872715").send(`**FridayScript Joined A New Server✅ 
                             Server name: __${guild.name}__
                             Server owner: __${guild.owner}__
                             Server id: __${guild.id}__ 
                             Server Count: __${guild.memberCount}__**`)
                             }); 
                             client.on('guildDelete', guild => {
-                              client.channels.get("5595088713692872715").send(`**FridayScript Left A Server ❎ 
+                              client.channels.get("595088713692872715").send(`**FridayScript Left A Server ❎ 
                             Server name: __${guild.name}__
                             Server owner: __${guild.owner}__
                             Server id: __${guild.id}__ 
