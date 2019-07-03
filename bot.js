@@ -18,7 +18,7 @@ client.on('message', message => {
   
   message.author.sendMessage(`
   **__[❖═════════════════════════════❖]__**
-        َ     __Macelar's Family Bot__
+        َ     __Mihai's Familyy Bot__
          __Bot made by Friday Bots / Owner: Huawei#6969__
   **__[❖═════General Commands═════❖]__**
   **🔰-| +id |** To Know Informations About Your Account
@@ -46,7 +46,7 @@ client.on('message', message => {
   **🔰-| +inv |** To Invite The Bot To Your Server
   **🔰-| +support |** To Join The Support Server
 
-  **__Macelar's Family Bot__**`);
+  **__Mihai's Family BOT__**`);
   
     }
   });
@@ -1082,7 +1082,7 @@ client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
 console.log("Streamstatus by Huawei")
 
-client.user.setActivity(`Macelar's Family | +help`, {
+client.user.setActivity(`Mihai's Family | +help`, {
 type: "STREAMING",
 url: "https://www.twitch.tv/PewDiePie"})
     .then(presence => console.log(`Your Status has been set to  ${presence.game ? presence.game.none : 'none'}`))
